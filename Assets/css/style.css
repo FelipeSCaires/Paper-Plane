@@ -372,7 +372,8 @@ body {
     ========================================================================== */
 .usuarios__container {
   padding: 70px 200px;
-  margin-top: -90px;
+  margin-top: 0px;
+  overflow-y: scroll;
 }
 .usuarios__content {
   display: flex;
