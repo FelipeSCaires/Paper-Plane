@@ -1,5 +1,0 @@
-user-agent: *
-Disallow:
-
-Sitemap: 
-# End of robots.txt file

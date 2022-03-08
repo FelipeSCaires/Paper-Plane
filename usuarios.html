@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Plane</title>
+    <!-- css -->
+<link rel="stylesheet" href="../Assets/css/style.css" />
+<!--fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <div class="header__container" id="header">
+            <nav class="header__menu--nav" id="nav">
+                <div class="header__left">
+                    <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                        <span id="hamburger"></span>
+                    </button>
+                    <a id="logo" href=""><img src="../Assets/img/header/logo.png" alt=""></a>
+                </div>
+                <div class="header__logout--container">
+                    <div class="header__links">
+                       <img src="../Assets/svg/home/bell.svg" alt="">
+                    </div>
+                    <div class="header__logout">
+                        <div class="header__logout--avatar">
+                            <img src="../Assets/img/foto.jpg" alt="">
+                        </div>
+                        <span>Olá, José</span>
+                        <img class="arrow-mobile" src="../Assets/svg/home/arrow.svg" alt="">
+                    </div>
+                </div>
+            </nav>
+          </div>
+    </header>
+   
+    <section class="index__container">
+        <aside class="sidebar__container">
+            <ul class="nav__list">
+                <li>
+                    <a href="index.html" >
+                        <img src="../Assets/svg/home/home-aside.svg" alt="">
+                        <span>Meu painel</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets/svg/home/clipboard-aside.svg" alt="">
+                        <span>Minhas tarefas</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets/svg/home/envelope-aside.svg" alt="">
+                        <span>Mensagens</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="usuarios.html" style="background: #993f98;">
+                        <img src="./Assets/svg/home/user-aside.svg" alt="">
+                        <span>Usuarios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Assets/svg/home/chat-aside.svg" alt="">
+                        <span>Contatos</span>
+                    </a>
+                </li>
+            </ul>
+           
+        </aside>
+        <div class="index__containet--content">
+            <div class="box-shdow"></div>
+            <!--home__content-->
+            <div class="usuarios__container">
+                <div class="home__content--text">
+                    <img src="../Assets/svg/usuarios/user.svg" alt=""> 
+                    <span><strong>Usuários</strong></span>
+                </div>
+                <div class="usuarios__content">
+                    <p>Aqui você pode adicionar, excluir ou gerenciar seu usuários:</p>
+                    <button class="box__item--button-6">
+                        <img src="../Assets/svg/usuarios/add-plus.svg" alt=""><span style="font-size: 14px; font-weight: bold;">Novo usuário</span>
+                    </button>
+                </div>
+            <!--task-box--> 
+            <div class="usuarios__content--box">
+                <div class="usuarios__box--container">
+                    <!--usuarios__box--item-->
+                    <div class="usuarios__box--item">
+                       <div class="usuarios__item--add">
+                          <div class="usuarios__box--avatar">
+                            <div class="usuarios__avatar">
+                                <img src="../Assets/img/usuarios/jose.jpg" style="width: 95px; height: 95px;" alt="">
+                            </div>
+                            <!--usuarios__text-->
+                            <div class="usuarios__text">
+                                <span><strong>José da Silva</strong> <br>Administrador</span>
+                                <div class="usuarios__contact">
+                                    <div class="usuarios__contact--telephone">
+                                        <img src="../Assets/svg/usuarios/telephone.svg" alt="">
+                                        <span>41 3333 3333</span>
+                                    </div>
+                                    <div class="usuarios__contact--mail">
+                                        <img src="../Assets/svg/usuarios/envelope.svg" alt="">
+                                        <span>email@email.com.br</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--usuarios__text-->
+                          </div>
+                          <div class="usuarios__status">
+                             <div class="status">
+                                <div class="usuarios__status--title">
+                                    <p><b>Status:</b></p>
+                                </div>
+                                <div class="liga-desliga">
+                                  
+                                    <input type="checkbox" class="liga-desliga__checkbox" id="liga-desliga">
+                                    <label for="liga-desliga" class="liga-desliga__botao"></label>
+                                </div>
+                             </div>
+                             <div class="action">
+                                <div class="usuarios__action--title">
+                                    <p><b>Ações:</b></p>
+                                </div>
+                                 <div>
+                                    <img  src="../Assets/svg/usuarios/editar.svg" alt="" style="margin-right: 20px;">
+                                    <img  src="../Assets/svg/usuarios/excluir.svg" alt=""> 
+                                 </div>
+                             </div>
+                            
+                          </div>
+                       </div>
+                    </div>
+                    <!--box__item-->
+                    <!--usuarios__box--item-->
+                    <div class="usuarios__box--item">
+                       <div class="usuarios__item--add">
+                          <div class="usuarios__box--avatar">
+                            <div class="usuarios__avatar">
+                                <img src="../Assets/img/usuarios/ana.jpg" style="width: 95px; height: 95px;" alt="">
+                            </div>
+                            <!--usuarios__text-->
+                            <div class="usuarios__text">
+                                <span><strong>Ana Maria</strong> <br>Usuário</span>
+                                <div class="usuarios__contact">
+                                    <div class="usuarios__contact--telephone">
+                                        <img src="../Assets/svg/usuarios/telephone.svg" alt="">
+                                        <span>41 3333 3333</span>
+                                    </div>
+                                    <div class="usuarios__contact--mail">
+                                        <img src="../Assets/svg/usuarios/envelope.svg" alt="">
+                                        <span>email@email.com.br</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--usuarios__text-->
+                          </div>
+                          <div class="usuarios__status">
+                             <div class="status">
+                                 <div class="usuarios__status--title">
+                                     <p><b>Status:</b></p>
+                                 </div>
+                                <div class="liga-desliga">
+                                  
+                                    <input type="checkbox" class="liga-desliga__checkbox" id="liga-desliga--2">
+                                    <label for="liga-desliga--2" class="liga-desliga__botao"></label>
+                                  
+                                </div>
+                             </div>
+                             <div class="action">
+                                <div class="usuarios__action--title">
+                                    <p><b>Ações:</b></p>
+                                </div>
+                                 <div>
+                                    <img  src="../Assets/svg/usuarios/editar.svg" alt="" style="margin-right: 20px;">
+                                    <img  src="../Assets/svg/usuarios/excluir.svg" alt=""> 
+                                 </div>
+                             </div>
+                            
+                          </div>
+                       </div>
+                    </div>
+                    <!--box__item-->
+                    <!--usuarios__box--item-->
+                    <div class="usuarios__box--item">
+                       <div class="usuarios__item--add">
+                          <div class="usuarios__box--avatar">
+                            <div class="usuarios__avatar">
+                                <img src="../Assets/img/usuarios/camila.jpg" style="width: 95px; height: 95px;" alt="">
+                            </div>
+                            <!--usuarios__text-->
+                            <div class="usuarios__text">
+                                <span><strong>Camila</strong> <br>Usuário</span>
+                                <div class="usuarios__contact">
+                                    <div class="usuarios__contact--telephone">
+                                        <img src="../Assets/svg/usuarios/telephone.svg" alt="">
+                                        <span>41 3333 3333</span>
+                                    </div>
+                                    <div class="usuarios__contact--mail">
+                                        <img src="../Assets/svg/usuarios/envelope.svg" alt="">
+                                        <span>email@email.com.br</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--usuarios__text-->
+                          </div>
+                          <div class="usuarios__status">
+                             <div class="status">
+                                <div class="usuarios__status--title">
+                                    <p><b>Status:</b></p>
+                                </div>
+                                <div class="liga-desliga">
+                                  
+                                    <input type="checkbox" class="liga-desliga__checkbox" id="liga-desliga--3">
+                                    <label for="liga-desliga--3" class="liga-desliga__botao"></label>
+                                </div>
+                             </div>
+                             <div class="action">
+                                <div class="usuarios__action--title">
+                                    <p><b>Ações:</b></p>
+                                </div>
+                                 <div>
+                                    <img  src="../Assets/svg/usuarios/editar.svg" alt="" style="margin-right: 20px;">
+                                    <img  src="../Assets/svg/usuarios/excluir.svg" alt=""> 
+                                 </div>
+                             </div>
+                            
+                          </div>
+                       </div>
+                    </div>
+                    <!--box__item-->
+                </div>
+                
+            </div>   
+            <!--task-box-->    
+            </div>
+            <!--home__content-->
+        </div>
+    </section>
+    <script src="../Assets/js/function.js"></script>    
+</body>
+</html>
