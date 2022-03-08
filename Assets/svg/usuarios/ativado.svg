@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="60" viewBox="0 0 67 60">
+  <defs>
+    <filter id="Retângulo_355" x="0" y="0" width="66" height="31" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_286" data-name="Grupo 286" transform="translate(-1317 -388)">
+    <g transform="matrix(1, 0, 0, 1, 1317, 388)" filter="url(#Retângulo_355)">
+      <rect id="Retângulo_355-2" data-name="Retângulo 355" width="60" height="25" rx="12.5" transform="translate(3 2)" fill="#20cb91"/>
+    </g>
+    <g id="Elipse_108" data-name="Elipse 108" transform="translate(1354 388)" fill="#fff" stroke="#20cb91" stroke-width="2">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14" fill="none"/>
+    </g>
+    <text id="Ativado" transform="translate(1326 444)" fill="#20cb91" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Ativado</tspan></text>
+  </g>
+</svg>

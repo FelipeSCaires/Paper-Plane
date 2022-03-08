@@ -1,0 +1,62 @@
+{
+    "name": "VEGA I.T.",
+    "short_name": "VEGA",
+    "description": "VEGA I.T. | Construindo o futuro da hospitalidade",
+    "start_url": "https://vegait.com/",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#2e406b",
+    "icons": [{
+        "src": "../img/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-120x120.png",
+        "sizes": "120x120",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-114x114.png",
+        "sizes": "114x114",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-76x76.png",
+        "sizes": "76x76",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-60x60.png",
+        "sizes": "60x60",
+        "type": "image/png"
+    }, {
+        "src": "../img/apple-touch-icon-57x57.png",
+        "sizes": "57x57",
+        "type": "image/png"
+    }, {
+        "src": "../img/mstile-310x310.png",
+        "sizes": "310x310",
+        "type": "image/png"
+    }, {
+        "src": "../img/mstile-150x150.png",
+        "sizes": "150x150",
+        "type": "image/png"
+    }, {
+        "src": "../img/mstile-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "../img/mstile-70x70.png",
+        "sizes": "70x70",
+        "type": "image/png"
+    }]
+}

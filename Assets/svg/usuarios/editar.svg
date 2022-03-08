@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="66" viewBox="0 0 40 66">
+  <g id="Grupo_285" data-name="Grupo 285" transform="translate(-1455 -382)">
+    <g id="Elipse_109" data-name="Elipse 109" transform="translate(1455 382)" fill="none" stroke="#b9b9b9" stroke-width="1">
+      <circle cx="20" cy="20" r="20" stroke="none"/>
+      <circle cx="20" cy="20" r="19.5" fill="none"/>
+    </g>
+    <g id="edit" transform="translate(1466 392.971)">
+      <path id="Caminho_541" data-name="Caminho 541" d="M16.834,1.193a3.97,3.97,0,0,0-5.619,0L.914,11.49a.515.515,0,0,0-.146.3L.005,17.439a.514.514,0,0,0,.146.433.524.524,0,0,0,.364.153.417.417,0,0,0,.069,0l3.406-.46a.519.519,0,0,0-.138-1.028L1.121,16.9l.533-3.943,4.15,4.15a.524.524,0,0,0,.364.153.508.508,0,0,0,.364-.153l10.3-10.3a3.967,3.967,0,0,0,0-5.619ZM11.415,2.459l1.73,1.73-9.4,9.4-1.73-1.73ZM6.172,16.012,4.481,14.321l9.4-9.4,1.691,1.691ZM16.293,5.872,12.155,1.734a2.94,2.94,0,0,1,4.138,4.138Z" transform="translate(0 0)" fill="#993f98"/>
+    </g>
+    <text id="Editar" transform="translate(1456 444)" fill="#993f98" font-size="14" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="0">Editar</tspan></text>
+  </g>
+</svg>
